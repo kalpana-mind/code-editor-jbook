@@ -12,7 +12,8 @@ export const serve = (port: number, filename: string, dir: string, useProxy: boo
       app.use(createProxyMiddleware({
         target: 'http://127.0.0.1:3000', 
         ws: true,
-        logLevel: 'silent',
+        
+        
       }));
     }else{
       const packagePath = require.resolve('@jsnotebook-km/local-client/build/index.html');
