@@ -44,7 +44,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepublishOnly": "npm run build --omit=optional"
+    "prepublishOnly": "npm run build --include=optional"
   },
   "eslintConfig": {
     "extends": [
@@ -64,5 +64,5 @@
       "last 1 safari version"
     ]
   },
-  "gitHead": "4403ca8ab2101b29bbb057ae57ecc76bc3858991"
+  "gitHead": "0db902ce458ac0cbdca36d588c2d324486dc6972"
 }
