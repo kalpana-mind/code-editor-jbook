@@ -1,6 +1,6 @@
 {
   "name": "jsnotebook-km",
-  "version": "3.0.0",
+  "version": "3.0.1-alpha.0",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jsnotebook-km/local-client": "^3.0.0"
+    "@jsnotebook-km/local-client": "^3.0.1-alpha.0"
   },
   "devDependencies": {
-    "@jsnotebook-km/local-api": "^3.0.0",
+    "@jsnotebook-km/local-api": "^3.0.1-alpha.0",
     "@types/node": "^20.12.7",
     "commander": "^12.0.0",
     "esbuild": "0.8.26",
